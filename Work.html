@@ -1,0 +1,173 @@
+<!doctype html>
+<html>
+<head>
+
+
+<title>Zeplini Project</title>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+ <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"   ></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+  <style>
+  #top, #bottom, #left, #right {
+	background:#4a4a4a;
+	position: fixed;
+	
+	}
+#left, #right {
+		top: 0; bottom: 0;
+		width: 15px;
+		}
+#left { left: 0; }
+#right { right: 0; }
+		
+#top, #bottom {
+		left: 0; right: 0;
+		height: 15px;
+		}
+#top { top: 0; }
+#bottom { bottom: 0; }
+
+.king{
+  font-family: "Raleway-bold","Times New Roman", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4a4a4a;
+  margin-right:30px;
+  margin-left:0px auto;
+  border-bottom:2px solid dodgerblue;
+}
+
+.subnav{
+   width: 69px;
+  height: 29px;
+  font-family: "Raleway", "Times New Roman", "sans-serif";
+  font-size: 22px;
+  //font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4a4a4a;
+  margin-left:50px;
+}
+
+.undraw_report_mx0a {
+ margin-top:60px;
+ margin-left:20px;
+ height:80px;
+ width:90px;
+ object-fit: contain;
+}
+
+.container span{
+  width: 761px;
+  height: 264px;
+  font-family:"Raleway", "Times New Roman","sans-serif";
+  font-size: 20px;
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #4a4a4a;
+  margin-top:100px;
+  //margin-left:5px;
+  margin-left:0px auto;
+  display:inline-block;
+ }
+ 
+ .nav-item a{ transition: all 500ms ease-in;}
+
+.nav-item a:hover {
+  transition: transform .10s;
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+   -webkit-transform: scale(0.5);
+  transform: scale(1.2);
+  text-decoration:underline dodgerblue solid;
+  color:dodgerblue !important;
+}
+</style>
+</head>
+<body>
+<div class="main">
+<div id="top"></div>
+<div id="bottom"></div>
+<div id="left"></div>
+<div id="right"></div>
+
+<div class="container">
+<nav class="navbar navbar-expand navbar-light d-flex mx-1 my-4">
+<div class="container">
+ <a class="navbar-brand king" href="#">Kingsley Torlowei</a> 
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav1">
+   <span class="navbar-toggler-icon"></span>
+  </button>
+ <div class="navbar-collapse collapse" id="nav1">
+  <ul class="navbar-nav subnav mr-auto">
+   <li class="nav-item" >
+    <a class="nav-link mx-5" href="#">Home</a>
+   </li><br>
+   <li class="nav-item">
+    <a class="nav-link mx-5" href="#">Portfolio</a>
+   </li>
+   <li class="nav-item">
+    <a class="nav-link mx-5" href="#">Blog</a>
+   </li>
+   <li class="nav-item">
+    <a class="nav-link" href="#">Contact</a>
+   </li>
+  </ul>
+ </div>
+ </div>
+</nav>
+  <div class="row">
+   <div class="col-md-3"> 
+  <img  class="undraw_report_mx0a w-100 h-75" src="Images/undraw-report-mx-0-a.svg" alt="Image"/> 
+  </div> 
+   <div class="col-md-9 ">
+   <div class="row">
+    <div class="col-md-12"> 
+	 <span class="type-effect "></span> 
+	 </div>
+  </div>
+  </div> 
+    
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/6.0.2/typeit.min.js"></script> 
+ <script> 
+new TypeIt('.type-effect', { 
+ speed: 50, 
+ //backspeed:100,
+ waitUntilVisible: false,
+ //breakLines: true
+ cursor:true,
+ lifeLike: true
+ })
+ .type('Hi, there!<br>')
+ .pause(1000)
+ .break()
+.type('I \'m Kingsley Torlowei.<br>')
+ .pause(750) 
+ .break()
+ .type('Master of Information Technology graduate from The University of Melbourne, Australia.<br>')
+ //.options({speed: 700})
+.break()
+.type('Software Engineer with expertise in Data Science technologies.<br>')
+ .pause(750) 
+ //.options({speed: 50})
+ .break()
+ .type('I \'m passionate about using data to make the world a better place.') 
+ .go();
+</script> 
+ </div> 
+ </div>
+</div>
+</body>
+</html>
